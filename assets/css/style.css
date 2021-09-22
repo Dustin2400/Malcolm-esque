@@ -1,0 +1,45 @@
+body{ 
+    margin: 0;
+    font-family: 'gill sans', 'Times New Roman', Times, serif;
+}
+header {
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+.image {
+    background-image: url("../images/ionic.jpg");
+    width: 60%;
+    height: 700px;
+    background-size: cover;
+}
+nav {
+    width: 35%;
+    height: 700px;
+    justify-content: right;
+}
+nav a {
+    padding: 10px;
+    color: #553d36;
+    text-decoration: none;
+}
+h1 {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    top: 150px;
+    left: 40%;
+    font-size: 80px;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #a4bef3, #87a0b2, #684a52, #553d36);
+}
+.subtitle {
+    left: 63%;
+    position: absolute;
+    top: 230px;
+    color: #553d36;
+    font-size: 30px;
+}
